@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<style>
+	      body
+        {
+            background-color: white;
+        }
+	      .contact
+        {
+	      	  padding: 4%;
+	      	  height: 400px;
+	      }
+	      .col-md-4
+        {
+	      	  background: #5791d8;
+	      	  padding: 4%;
+	      	  border-top-left-radius: 0.5rem;
+	      	  border-bottom-left-radius: 0.5rem;
+	      }
+	      .contact-info
+        {
+	      	  margin-top:50%;
+	      }
+	      .contact-info img
+        {
+	      	  margin-bottom: 15%;
+	      }
+	      .contact-info h2
+        {
+	      	  margin-bottom: 10%;
+	      }
+        .a2
+        {
+            font-size: 30px;
+        }
+	      .col-md-8
+        {
+	      	  background: #fff;
+	      	  padding: 3%;
+	      	  border-top-right-radius: 0.5rem;
+	      	  border-bottom-right-radius: 0.5rem;
+	      }
+	      .contact-form label
+        {
+	        	font-weight:600;
+	      }
+	      .contact-form button
+        {
+	        	background: #25274d;
+	      	  color: #fff;
+	      	  font-weight: 600;
+	      	  width: 100%;
+	      }
+	      .contact-form button:focus
+        {
+	        	box-shadow:none;
+	      }
+        a
+        {
+            font-size: 30px;
+            color: white;
+        }
+        a:hover
+        {
+          color: white;
+          text-decoration: none;
+        }
+        .nav2
+        {
+            background-color:black;
+            display: flex;
+            border-radius: 35px;
+            opacity: 25%;
+            height: 75px;
+            padding-top: 15px;
+            margin-top: 20px;
+        }
+        
+</style>
+</head>
+<body>
+<nav class="nav2">
+    <a href="mini website.html" style="text-decoration: none;margin-left: 10px"><i class="fa-solid fa-house" style="color: white;"></i></a>
+    <a href="mini website.html" style="margin-left: 10px;margin-right:1000px;">HOME</a>
+    <a href="Weightlifting.html"class="a2" onclick="return confirm('do you want to move?');"><i class="fa-solid fa-circle-left" style="font-size:40px;margin-right:20px;"></i></a>
+</nav>
+    <div class="container contact" style="margin-top: -40px;">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="contact-info">
+            <center><img src="contact-image.png" alt="image"/>
+            <h2>Contact Us</h2>
+            <h4>We would love to hear from you !</h4></center>
+          </div>
+        </div>
+     <div class="col-md-8">
+        <div class="contact-form">
+           <form method="post" onsubmit="alert('Form submited successfully!!');">
+           <div class="form-group">
+           <label class="control-label col-sm-2" for="fname">First Name:</label>
+           <div class="col-sm-12">          
+           <input type="text" class="form-control" id="fname" placeholder="Enter First Name" required name="fname">
+         </div>
+      </div>
+      <div class="form-group">
+         <label class="control-label col-sm-2" for="lname">Last Name:</label>
+         <div class="col-sm-12">          
+         <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" required name="lname">
+         </div>
+      </div>
+      <div class="form-group">
+          <label class="control-label col-sm-2" for="email">Email:</label>
+          <div class="col-sm-12">
+          <input type="email" class="form-control" id="email" placeholder="Enter email" required name="email">
+        </div>
+      </div>
+      <div class="form-group">
+         <label class="control-label col-sm-2" for="comment">Comment:</label>
+         <div class="col-sm-12">
+         <textarea class="form-control" rows="5" id="comment"></textarea>
+       </div>
+     </div>
+      <div class="form-group">        
+        <div class="col-sm-offset-2 col-sm-12">
+              <button type="submit" class="btn btn-default">Submit</button>
+        </div>
+      </div>
+               </form>
+              </div>
+      </div>
+        </div>
+        </div>
+    </div>
+  </div>
+</body>
+</html> 
